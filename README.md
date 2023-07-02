@@ -26,12 +26,12 @@ To install the Car Booking Application, follow these steps:
 1. Clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/your-username/car-booking-app.git
+git clone https://github.com/ana1999-code/Car-Booking-Application.git
 ```
 2. Change into the project directory:
 
 ```bash
-cd car-booking-app
+cd Car-Booking-Application
 ```
 ### Configuration
 The application uses a PostgreSQL database to store car booking information. Before running the app, you need to set up the database:
