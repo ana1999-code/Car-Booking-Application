@@ -1,0 +1,11 @@
+services:
+  db:
+    container_name: car_booking_database
+    image: postgres
+    environment:
+      POSTGRES_USER: booking_user
+      POSTGRES_PASSWORD: booking_pass
+      POSTGRES_DB: car_booking
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
