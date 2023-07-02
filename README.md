@@ -1,6 +1,15 @@
 # Car Booking Application
 Welcome to the Car Booking Application repository! This application allows users to book cars for various purposes. To get started, follow the instructions below to set up and run the application.
 
+Endpoints
+- __/users__: This endpoint allows you to view and edit user information.
+
+- __/cars__: Use this endpoint to view and edit car information.
+
+- __/brands__: The /brands endpoint is designed to manage car brands.
+
+- __/bookings__: This endpoint enables you to view and manage car bookings.
+
 ### Table of Contents
 - Requirements
 - Installation
@@ -46,8 +55,8 @@ npm install
 ```bash
 npm start
 ```
-The application should now be running locally at http://localhost:8090.
+The application should now be running locally at http://localhost:8090/api/v1.
 
-Open your web browser and navigate to http://localhost:8090 to access the Car Booking Application.
+Open your web browser and navigate to http://localhost:8090/api/v1 to access the Car Booking Application.
 
-Thank you for using the Car Booking Application! We hope you find it useful and enjoy using it. If you have any feedback or suggestions, we'd love to hear from you. Happy car booking!
+_Thank you for using the Car Booking Application! I hope you find it useful and enjoy using it. If you have any feedback or suggestions, I'd love to hear from you. Happy car booking!_
