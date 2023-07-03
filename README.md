@@ -43,18 +43,8 @@ The application uses a PostgreSQL database to store car booking information. Bef
 ```bash
 docker-compose up -d
 ```
-To run the Car Booking Application, follow these steps:
+Run the Car Booking Application.
 
-1. Install the required dependencies:
-
-```bash
-npm install
-```
-2. Start the application:
-
-```bash
-npm start
-```
 The application should now be running locally at http://localhost:8090/api/v1.
 
 Open your web browser and navigate to http://localhost:8090/api/v1 to access the Car Booking Application.
